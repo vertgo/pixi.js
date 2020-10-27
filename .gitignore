@@ -29,7 +29,6 @@ node_modules
 docs
 coverage
 .nyc_output
-dist
 bundles/*/*.d.ts
 out
 packages/**/index.d.ts

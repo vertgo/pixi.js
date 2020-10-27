@@ -1,6 +1,5 @@
 {
-  "name": "pixi.js",
-  "version": "5.3.3",
+  "name": "pixi.js-monorepo",
   "private": true,
   "scripts": {
     "start": "npm run watch",
@@ -33,7 +32,8 @@
     "webdoc": "webdoc"
   },
   "pre-commit": [
-    "lintfix"
+    
+    "build"
   ],
   "devDependencies": {
     "@lerna/batch-packages": "^3.13.0",
