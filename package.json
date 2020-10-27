@@ -1,6 +1,7 @@
 {
   "name": "pixi.js-monorepo",
-  "version": "5.3.3"
+  "version": "5.3.3",
+  "private": true,
   "scripts": {
     "start": "npm run watch",
     "postinstall": "npm run bootstrap",
